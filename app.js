@@ -38,9 +38,6 @@
         }
     }
     
-//     if(setTime().clicked ==true && start().clicked ==true ){
-//     document.getElementById('Set').disabled = true;
-// }
     function start() {
           document.getElementById('Start').disabled = true;
         var countdownTimer = setInterval('timer()', 1000);
