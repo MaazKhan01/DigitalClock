@@ -1,8 +1,6 @@
     function setTime() {
         document.getElementById('Set').disabled = true;
-        // var s = document.getElementById('s');
-        // var m = document.getElementById('m');
-        // var h = document.getElementById('h');
+        
         var secNode = document.getElementById('sec');
         var minNode = document.getElementById('min');
         var hrNode = document.getElementById('hr');
